@@ -1,0 +1,41 @@
+# Based on https://github.com/free5gc/free5gc-compose
+FROM golang:1.14.4-stretch AS builder
+LABEL maintainer="Niloy Saha <niloysaha.ns@gmail.com>"
+
+# Install dependencies
+RUN apt-get update \
+    && apt-get -y install gcc cmake autoconf libtool pkg-config libmnl-dev libyaml-dev apt-transport-https ca-certificates \
+    && curl -sL https://deb.nodesource.com/setup_14.x | bash - \
+    && curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
+    && echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list \
+    && apt-get update \
+    && apt-get install -y nodejs yarn
+
+# Clean apt cache
+RUN apt-get clean
+
+# Get Free5GC
+RUN cd $GOPATH/src \
+    && git clone --recursive -b v3.2.0 -j `nproc` https://github.com/free5gc/free5gc.git
+
+# Build Free5GC NFs and WebUI
+RUN cd $GOPATH/src/free5gc \
+    && make all
+
+FROM alpine:3.15
+
+WORKDIR /free5gc
+RUN mkdir -p config/TLS/public
+
+# Copy executables
+COPY --from=builder /go/src/free5gc/bin/* ./
+COPY --from=builder /go/src/free5gc/webconsole/bin/webconsole ./webui
+
+# Copy static files (webui frontend)
+COPY --from=builder /go/src/free5gc/webconsole/public ./public
+
+# Copy configuration files (not used for now)
+COPY --from=builder /go/src/free5gc/config/* ./config/
+
+# Copy default certificates (not used for now)
+COPY --from=builder /go/src/free5gc/config/TLS/* ./config/TLS/
