@@ -1,0 +1,114 @@
+UERANSIM v3.2.6
+[2023-07-07 00:00:32.831] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-07 00:00:32.832] [rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2023-07-07 00:00:32.835] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:00:32.835] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:00:32.835] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:00:32.835] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:00:32.835] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-07 00:00:32.838] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-07 00:00:32.838] [nas] [debug] Sending Initial Registration
+[2023-07-07 00:00:32.838] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-07 00:00:32.838] [rrc] [debug] Sending RRC Setup Request
+[2023-07-07 00:00:32.839] [rrc] [info] RRC connection established
+[2023-07-07 00:00:32.839] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-07 00:00:32.839] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-07 00:00:36.238] [nas] [debug] Authentication Request received
+[2023-07-07 00:00:40.045] [nas] [debug] Security Mode Command received
+[2023-07-07 00:00:40.045] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-07-07 00:00:46.352] [nas] [debug] Registration accept received
+[2023-07-07 00:00:46.352] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:00:46.352] [nas] [debug] Sending Registration Complete
+[2023-07-07 00:00:46.352] [nas] [info] Initial Registration is successful
+[2023-07-07 00:02:52.464] [rrc] [debug] Signal lost for cell[1], total [0] cells in coverage
+[2023-07-07 00:02:52.464] [nas] [error] Radio link failure detected
+[2023-07-07 00:02:52.464] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-07 00:02:52.464] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:02:52.464] [nas] [info] UE switches to state [MM-REGISTERED/PLMN-SEARCH]
+[2023-07-07 00:02:52.464] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:02:52.481] [rrc] [debug] New signal detected for cell[2], total [1] cells in coverage
+[2023-07-07 00:02:52.683] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:02:52.683] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:02:52.684] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:02:52.684] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:03:09.481] [rrc] [debug] Signal lost for cell[2], total [0] cells in coverage
+[2023-07-07 00:03:09.482] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:03:09.482] [nas] [info] UE switches to state [MM-REGISTERED/PLMN-SEARCH]
+[2023-07-07 00:03:09.482] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:03:09.510] [rrc] [debug] New signal detected for cell[3], total [1] cells in coverage
+[2023-07-07 00:03:09.510] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:03:09.510] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [1] no SI, [0] reserved, [0] barred, ftai [0]
+[2023-07-07 00:03:09.510] [rrc] [warning] Acceptable cell selection failed in [1] cells. [1] no SI, [0] reserved, [0] barred, ftai [0]
+[2023-07-07 00:03:09.510] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-07-07 00:03:10.395] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:03:10.396] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:03:10.396] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:04:10.807] [rrc] [debug] Signal lost for cell[3], total [0] cells in coverage
+[2023-07-07 00:04:10.807] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:04:10.807] [nas] [info] UE switches to state [MM-REGISTERED/PLMN-SEARCH]
+[2023-07-07 00:04:10.807] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:04:10.815] [rrc] [debug] New signal detected for cell[4], total [1] cells in coverage
+[2023-07-07 00:04:10.822] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:04:10.822] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:04:10.823] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:04:10.823] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:04:38.019] [rrc] [debug] Signal lost for cell[4], total [0] cells in coverage
+[2023-07-07 00:04:38.019] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:04:38.019] [nas] [info] UE switches to state [MM-REGISTERED/PLMN-SEARCH]
+[2023-07-07 00:04:38.019] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:04:38.028] [rrc] [debug] New signal detected for cell[5], total [1] cells in coverage
+[2023-07-07 00:04:38.035] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:04:38.035] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [1] no SI, [0] reserved, [0] barred, ftai [0]
+[2023-07-07 00:04:38.035] [rrc] [warning] Acceptable cell selection failed in [1] cells. [1] no SI, [0] reserved, [0] barred, ftai [0]
+[2023-07-07 00:04:38.035] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-07-07 00:04:40.431] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:04:40.431] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:04:40.431] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:04:46.459] [rrc] [debug] Signal lost for cell[5], total [0] cells in coverage
+[2023-07-07 00:04:46.459] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:04:46.459] [nas] [info] UE switches to state [MM-REGISTERED/PLMN-SEARCH]
+[2023-07-07 00:04:46.459] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:04:46.464] [rrc] [debug] New signal detected for cell[6], total [1] cells in coverage
+[2023-07-07 00:04:46.465] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:04:47.952] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:04:47.952] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:04:47.952] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:04:53.808] [rrc] [debug] Signal lost for cell[6], total [0] cells in coverage
+[2023-07-07 00:04:53.808] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:04:53.808] [nas] [info] UE switches to state [MM-REGISTERED/PLMN-SEARCH]
+[2023-07-07 00:04:53.808] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:04:53.842] [rrc] [debug] New signal detected for cell[7], total [1] cells in coverage
+[2023-07-07 00:04:53.842] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:04:53.842] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:04:53.842] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:04:53.842] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:05:23.114] [rrc] [debug] Signal lost for cell[7], total [0] cells in coverage
+[2023-07-07 00:05:23.115] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:05:23.115] [nas] [info] UE switches to state [MM-REGISTERED/PLMN-SEARCH]
+[2023-07-07 00:05:23.115] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:05:23.117] [rrc] [debug] New signal detected for cell[8], total [1] cells in coverage
+[2023-07-07 00:05:23.142] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:05:23.142] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:05:23.142] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:05:23.142] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:05:25.200] [rrc] [debug] Signal lost for cell[8], total [0] cells in coverage
+[2023-07-07 00:05:25.200] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:05:25.200] [nas] [info] UE switches to state [MM-REGISTERED/PLMN-SEARCH]
+[2023-07-07 00:05:25.200] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:05:25.467] [rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+[2023-07-07 00:05:25.467] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-07-07 00:05:26.214] [rrc] [debug] New signal detected for cell[9], total [1] cells in coverage
+[2023-07-07 00:05:26.239] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:05:26.239] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:05:26.239] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:05:26.239] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:05:46.863] [rrc] [debug] Signal lost for cell[9], total [0] cells in coverage
+[2023-07-07 00:05:46.863] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:05:46.863] [nas] [info] UE switches to state [MM-REGISTERED/PLMN-SEARCH]
+[2023-07-07 00:05:46.863] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:05:46.876] [rrc] [debug] New signal detected for cell[10], total [1] cells in coverage
+[2023-07-07 00:05:48.887] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:05:48.899] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:05:48.899] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:05:48.899] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-07-07 00:05:48.899] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]

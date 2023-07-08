@@ -1,0 +1,574 @@
+UERANSIM v3.2.6
+[2023-07-07 00:02:06.952] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-07 00:02:06.952] [rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2023-07-07 00:02:06.958] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:02:06.958] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:02:06.958] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:02:06.958] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:02:06.958] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-07 00:02:06.962] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-07 00:02:06.962] [nas] [debug] Sending Initial Registration
+[2023-07-07 00:02:06.962] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-07 00:02:06.962] [rrc] [debug] Sending RRC Setup Request
+[2023-07-07 00:02:06.963] [rrc] [info] RRC connection established
+[2023-07-07 00:02:06.963] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-07 00:02:06.963] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-07 00:02:13.245] [nas] [debug] Authentication Request received
+[2023-07-07 00:02:19.277] [nas] [debug] Authentication Request received
+[2023-07-07 00:02:19.277] [nas] [error] Sending Authentication Failure with cause [NGKSI_ALREADY_IN_USE]
+[2023-07-07 00:02:21.967] [nas] [debug] NAS timer[3510] expired [1]
+[2023-07-07 00:02:21.967] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:02:21.967] [nas] [info] UE switches to state [5U2-NOT-UPDATED]
+[2023-07-07 00:02:21.967] [nas] [info] Performing local release of NAS connection
+[2023-07-07 00:02:21.967] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-07 00:02:21.967] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-07 00:02:21.967] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-07 00:02:23.732] [nas] [debug] Security Mode Command received
+[2023-07-07 00:02:23.732] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-07-07 00:02:23.732] [nas] [warning] NAS Transport aborted, Service Request is needed for uplink signalling
+[2023-07-07 00:02:23.733] [nas] [debug] Service request required due to [IDLE-UPLINK-SIGNAL-PENDING]
+[2023-07-07 00:02:23.733] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:23.761] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:23.765] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:23.768] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:23.771] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:23.883] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:23.887] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:23.889] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:23.892] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:23.895] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:23.898] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:23.900] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:23.903] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:23.906] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:23.909] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:23.910] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:23.912] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:24.568] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:24.719] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:24.733] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:24.733] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:24.733] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:24.928] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:24.936] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:25.143] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:25.155] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:25.164] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:25.169] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:25.319] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:25.324] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:25.669] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:25.929] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:25.932] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:26.337] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:26.344] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:26.352] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:26.357] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:26.362] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:26.574] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:26.574] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:26.663] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:26.668] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:26.770] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:26.969] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:26.975] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:27.177] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:27.191] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:27.595] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:27.605] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:27.871] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:28.012] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:28.022] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:28.430] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:28.440] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:28.972] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:29.783] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:29.791] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:30.073] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:30.197] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:30.206] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:30.211] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:30.560] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:30.563] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:30.566] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:30.569] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:30.957] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:30.963] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:31.174] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:31.363] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:31.371] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:31.415] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:31.423] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:31.630] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:31.636] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:31.637] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:31.641] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:31.645] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:31.650] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:31.654] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:31.656] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:31.658] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:31.661] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:02:31.977] [nas] [debug] NAS timer[3511] expired [1]
+[2023-07-07 00:02:31.977] [nas] [debug] Initial registration required due to [T3511-EXPIRY-IN-ATT-REG]
+[2023-07-07 00:02:31.977] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-07 00:02:31.977] [nas] [debug] Sending Initial Registration
+[2023-07-07 00:02:31.977] [nas] [debug] Deleting NAS security context
+[2023-07-07 00:02:31.977] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-07 00:02:31.977] [rrc] [debug] Sending RRC Setup Request
+[2023-07-07 00:02:31.977] [rrc] [info] RRC connection established
+[2023-07-07 00:02:31.977] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-07 00:02:31.977] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-07 00:02:34.980] [nas] [debug] NAS timer[3520] expired [1]
+[2023-07-07 00:02:34.980] [nas] [error] Network failing the authentication check
+[2023-07-07 00:02:34.980] [nas] [info] Performing local release of NAS connection
+[2023-07-07 00:02:34.980] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-07 00:02:34.980] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-07 00:02:34.980] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:02:34.980] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-07 00:02:44.990] [nas] [debug] NAS timer[3511] expired [1]
+[2023-07-07 00:02:44.990] [nas] [debug] Initial registration required due to [T3511-EXPIRY-IN-ATT-REG]
+[2023-07-07 00:02:44.990] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-07 00:02:44.990] [nas] [debug] Sending Initial Registration
+[2023-07-07 00:02:44.990] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-07 00:02:44.990] [rrc] [debug] Sending RRC Setup Request
+[2023-07-07 00:02:44.991] [rrc] [info] RRC connection established
+[2023-07-07 00:02:44.991] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-07 00:02:44.991] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-07 00:03:00.005] [nas] [debug] NAS timer[3510] expired [1]
+[2023-07-07 00:03:00.005] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:03:00.005] [nas] [info] Performing local release of NAS connection
+[2023-07-07 00:03:00.005] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-07 00:03:00.005] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-07 00:03:00.005] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-07 00:03:10.015] [nas] [debug] NAS timer[3511] expired [1]
+[2023-07-07 00:03:10.015] [nas] [debug] Initial registration required due to [T3511-EXPIRY-IN-ATT-REG]
+[2023-07-07 00:03:10.015] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-07 00:03:10.015] [nas] [debug] Sending Initial Registration
+[2023-07-07 00:03:10.015] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-07 00:03:10.015] [rrc] [debug] Sending RRC Setup Request
+[2023-07-07 00:03:10.016] [rrc] [info] RRC connection established
+[2023-07-07 00:03:10.016] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-07 00:03:10.016] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-07 00:03:25.030] [nas] [debug] NAS timer[3510] expired [1]
+[2023-07-07 00:03:25.030] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:03:25.030] [nas] [info] Performing local release of NAS connection
+[2023-07-07 00:03:25.030] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-07 00:03:25.030] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-07 00:03:25.030] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-07 00:03:25.543] [rrc] [debug] Signal lost for cell[1], total [0] cells in coverage
+[2023-07-07 00:03:25.543] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:03:25.543] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-07 00:03:25.543] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:03:25.556] [rrc] [debug] New signal detected for cell[2], total [1] cells in coverage
+[2023-07-07 00:03:25.559] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:03:25.559] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [1] no SI, [0] reserved, [0] barred, ftai [0]
+[2023-07-07 00:03:25.559] [rrc] [warning] Acceptable cell selection failed in [1] cells. [1] no SI, [0] reserved, [0] barred, ftai [0]
+[2023-07-07 00:03:25.559] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-07-07 00:03:26.984] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:03:26.984] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:03:26.984] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:03:26.984] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-07 00:03:26.984] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-07 00:03:26.984] [nas] [debug] Sending Initial Registration
+[2023-07-07 00:03:26.984] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-07 00:03:26.984] [rrc] [debug] Sending RRC Setup Request
+[2023-07-07 00:03:26.986] [rrc] [info] RRC connection established
+[2023-07-07 00:03:26.986] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-07 00:03:26.986] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-07 00:03:27.791] [rrc] [debug] Signal lost for cell[2], total [0] cells in coverage
+[2023-07-07 00:03:27.791] [nas] [error] Radio link failure detected
+[2023-07-07 00:03:27.791] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-07 00:03:27.791] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:03:27.791] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-07 00:03:27.791] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:03:27.791] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-07 00:03:27.791] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:03:27.806] [rrc] [debug] New signal detected for cell[3], total [1] cells in coverage
+[2023-07-07 00:03:27.809] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:03:29.485] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:03:29.485] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:03:29.485] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:03:29.485] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-07 00:03:29.485] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-07 00:03:29.485] [nas] [debug] Sending Initial Registration
+[2023-07-07 00:03:29.485] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-07 00:03:29.485] [rrc] [debug] Sending RRC Setup Request
+[2023-07-07 00:03:45.050] [nas] [debug] NAS timer[3510] expired [1]
+[2023-07-07 00:03:45.050] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:03:45.050] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-07 00:03:45.050] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-07 00:03:55.060] [nas] [debug] NAS timer[3511] expired [1]
+[2023-07-07 00:03:55.060] [nas] [debug] Initial registration required due to [T3511-EXPIRY-IN-ATT-REG]
+[2023-07-07 00:03:55.060] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-07 00:03:55.060] [nas] [debug] Sending Initial Registration
+[2023-07-07 00:03:55.060] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-07 00:03:55.060] [rrc] [debug] Sending RRC Setup Request
+[2023-07-07 00:03:55.060] [rrc] [info] RRC connection established
+[2023-07-07 00:03:55.060] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-07 00:03:55.060] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-07 00:04:10.075] [nas] [debug] NAS timer[3510] expired [1]
+[2023-07-07 00:04:10.075] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:04:10.075] [nas] [info] Performing local release of NAS connection
+[2023-07-07 00:04:10.075] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-07 00:04:10.075] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-07 00:04:10.075] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-07 00:04:20.085] [nas] [debug] NAS timer[3511] expired [1]
+[2023-07-07 00:04:20.085] [nas] [debug] Initial registration required due to [T3511-EXPIRY-IN-ATT-REG]
+[2023-07-07 00:04:20.085] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-07 00:04:20.085] [nas] [debug] Sending Initial Registration
+[2023-07-07 00:04:20.085] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-07 00:04:20.085] [rrc] [debug] Sending RRC Setup Request
+[2023-07-07 00:04:20.086] [rrc] [info] RRC connection established
+[2023-07-07 00:04:20.086] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-07 00:04:20.086] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-07 00:04:20.214] [rrc] [debug] Signal lost for cell[3], total [0] cells in coverage
+[2023-07-07 00:04:20.214] [nas] [error] Radio link failure detected
+[2023-07-07 00:04:20.214] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-07 00:04:20.214] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:04:20.214] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-07 00:04:20.214] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:04:20.214] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-07 00:04:20.214] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:04:20.232] [rrc] [debug] New signal detected for cell[4], total [1] cells in coverage
+[2023-07-07 00:04:21.259] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:04:21.259] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:04:21.259] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:04:21.259] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:04:21.259] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-07 00:04:21.259] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-07 00:04:21.260] [nas] [debug] Sending Initial Registration
+[2023-07-07 00:04:21.260] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-07 00:04:21.260] [rrc] [debug] Sending RRC Setup Request
+[2023-07-07 00:04:37.102] [nas] [debug] NAS timer[3510] expired [1]
+[2023-07-07 00:04:37.102] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:04:37.102] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-07 00:04:37.102] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-07 00:04:46.460] [rrc] [debug] Signal lost for cell[4], total [0] cells in coverage
+[2023-07-07 00:04:46.460] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:04:46.460] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-07 00:04:46.460] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:04:47.016] [rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+[2023-07-07 00:04:47.016] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-07-07 00:04:47.501] [rrc] [debug] New signal detected for cell[5], total [1] cells in coverage
+[2023-07-07 00:04:47.935] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:04:47.935] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:04:47.935] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:04:47.935] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:04:47.935] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-07 00:04:47.935] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-07 00:04:47.935] [nas] [debug] Sending Initial Registration
+[2023-07-07 00:04:47.935] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-07 00:04:47.935] [rrc] [debug] Sending RRC Setup Request
+[2023-07-07 00:04:47.936] [rrc] [info] RRC connection established
+[2023-07-07 00:04:47.936] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-07 00:04:47.936] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-07 00:04:53.807] [rrc] [debug] Signal lost for cell[5], total [0] cells in coverage
+[2023-07-07 00:04:53.807] [nas] [error] Radio link failure detected
+[2023-07-07 00:04:53.807] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-07 00:04:53.807] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:04:53.807] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-07 00:04:53.807] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:04:53.807] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-07 00:04:53.807] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:04:53.842] [rrc] [debug] New signal detected for cell[6], total [1] cells in coverage
+[2023-07-07 00:04:53.844] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:04:53.844] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:04:53.844] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:04:53.844] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:04:53.844] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-07 00:04:53.845] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-07 00:04:53.845] [nas] [debug] Sending Initial Registration
+[2023-07-07 00:04:53.846] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-07 00:04:53.846] [rrc] [debug] Sending RRC Setup Request
+[2023-07-07 00:05:00.206] [rrc] [debug] Signal lost for cell[6], total [0] cells in coverage
+[2023-07-07 00:05:00.207] [nas] [error] Active cell change in [CM-IDLE] state while MM specific procedure is ongoing
+[2023-07-07 00:05:00.207] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:05:00.207] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-07 00:05:00.207] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:05:00.228] [rrc] [debug] New signal detected for cell[7], total [1] cells in coverage
+[2023-07-07 00:05:00.231] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:05:02.022] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:05:02.022] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:05:02.022] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:05:02.022] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-07 00:05:02.022] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-07 00:05:02.022] [nas] [debug] Sending Initial Registration
+[2023-07-07 00:05:02.022] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-07 00:05:02.022] [rrc] [debug] Sending RRC Setup Request
+[2023-07-07 00:05:03.887] [nas] [debug] Authentication Request received
+[2023-07-07 00:05:03.887] [nas] [warning] NAS Transport aborted, Service Request is needed for uplink signalling
+[2023-07-07 00:05:03.887] [nas] [debug] Service request required due to [IDLE-UPLINK-SIGNAL-PENDING]
+[2023-07-07 00:05:03.887] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:04.213] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:04.404] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:04.608] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:04.613] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:05.314] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:06.028] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:06.415] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:06.446] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:07.467] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:07.477] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:07.477] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:07.516] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:08.489] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:08.499] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:08.505] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:08.505] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:08.617] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:09.515] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:09.521] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:09.533] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:09.718] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:09.805] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:09.805] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:09.842] [nas] [debug] Authentication Request received
+[2023-07-07 00:05:09.842] [nas] [error] Sending Authentication Failure with cause [NGKSI_ALREADY_IN_USE]
+[2023-07-07 00:05:09.842] [nas] [warning] NAS Transport aborted, Service Request is needed for uplink signalling
+[2023-07-07 00:05:10.020] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:10.516] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:10.525] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:10.533] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:10.540] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:10.544] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:10.551] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:10.556] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:10.561] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:10.565] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:10.570] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:10.573] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:10.574] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:10.578] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:10.793] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:10.808] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:10.819] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:11.609] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:11.617] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:11.825] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:11.830] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:11.834] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:11.920] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:13.021] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:14.122] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:14.768] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:15.223] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:15.750] [nas] [debug] Authentication Request received
+[2023-07-07 00:05:15.750] [nas] [error] Sending Authentication Failure with cause [NGKSI_ALREADY_IN_USE]
+[2023-07-07 00:05:15.750] [nas] [warning] NAS Transport aborted, Service Request is needed for uplink signalling
+[2023-07-07 00:05:15.781] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:15.790] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:16.324] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:16.391] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:16.395] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:16.398] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:16.402] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:16.408] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:16.412] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:16.822] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:16.825] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:16.839] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:16.844] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:17.056] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:17.065] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:17.071] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:17.087] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-07 00:05:17.142] [nas] [debug] NAS timer[3510] expired [1]
+[2023-07-07 00:05:17.142] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:05:17.142] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-07 00:05:17.142] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.142] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.142] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.142] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-07 00:05:17.142] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.425] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.710] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.717] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.928] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.933] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.936] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.937] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.944] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.945] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.947] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.951] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.955] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.955] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.958] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.958] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.960] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.967] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.968] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:17.968] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:18.152] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:18.169] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:18.173] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:18.188] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:18.526] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:18.577] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:18.581] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:18.587] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:18.587] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:18.991] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.003] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.006] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.009] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.009] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.014] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.023] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.024] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.029] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.033] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.033] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.037] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.240] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.253] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.254] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.266] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.627] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.800] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.822] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:19.822] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:20.023] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:20.036] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:20.041] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:20.046] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:20.247] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:20.268] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:20.728] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:21.082] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:21.093] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:21.829] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:22.105] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:22.930] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:23.126] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:23.135] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:23.141] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:23.147] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:23.753] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:23.762] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:24.031] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:24.170] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:24.185] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:24.190] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:24.197] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:24.198] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:25.132] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:25.200] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:25.213] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:26.213] [rrc] [debug] Signal lost for cell[7], total [0] cells in coverage
+[2023-07-07 00:05:26.213] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:05:26.214] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-07 00:05:26.214] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:05:26.225] [rrc] [debug] New signal detected for cell[8], total [1] cells in coverage
+[2023-07-07 00:05:26.233] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:05:26.233] [rrc] [warning] Acceptable cell selection failed in [1] cells. [1] no SI, [0] reserved, [0] barred, ftai [0]
+[2023-07-07 00:05:26.233] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-07-07 00:05:27.032] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-07 00:05:27.032] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:05:27.032] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-07 00:05:27.032] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:27.032] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-07 00:05:27.032] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-07 00:05:27.032] [nas] [debug] Sending Initial Registration
+[2023-07-07 00:05:27.032] [nas] [debug] Deleting NAS security context
+[2023-07-07 00:05:27.032] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-07 00:05:27.032] [rrc] [debug] Sending RRC Setup Request
+[2023-07-07 00:05:27.033] [rrc] [info] RRC connection established
+[2023-07-07 00:05:27.033] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-07 00:05:27.033] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-07 00:05:31.158] [nas] [debug] NAS timer[3520] expired [1]
+[2023-07-07 00:05:31.158] [nas] [error] Network failing the authentication check
+[2023-07-07 00:05:31.158] [nas] [info] Performing local release of NAS connection
+[2023-07-07 00:05:31.158] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-07 00:05:31.158] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-07 00:05:31.158] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:05:31.158] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-07 00:05:41.168] [nas] [debug] NAS timer[3511] expired [1]
+[2023-07-07 00:05:41.168] [nas] [debug] Initial registration required due to [T3511-EXPIRY-IN-ATT-REG]
+[2023-07-07 00:05:41.168] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-07 00:05:41.168] [nas] [debug] Sending Initial Registration
+[2023-07-07 00:05:41.168] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-07 00:05:41.168] [rrc] [debug] Sending RRC Setup Request
+[2023-07-07 00:05:41.169] [rrc] [info] RRC connection established
+[2023-07-07 00:05:41.169] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-07 00:05:41.169] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-07 00:05:44.603] [nas] [debug] Authentication Request received
+[2023-07-07 00:05:47.994] [nas] [debug] Security Mode Command received
+[2023-07-07 00:05:47.994] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-07-07 00:05:53.969] [nas] [debug] Security Mode Command received
+[2023-07-07 00:05:53.969] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-07-07 00:05:54.169] [rrc] [debug] Signal lost for cell[8], total [0] cells in coverage
+[2023-07-07 00:05:54.169] [nas] [error] Radio link failure detected
+[2023-07-07 00:05:54.169] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-07 00:05:54.169] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:05:54.169] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-07 00:05:54.170] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:05:54.170] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-07 00:05:54.170] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-07 00:05:54.170] [rrc] [debug] New signal detected for cell[9], total [1] cells in coverage
+[2023-07-07 00:05:54.300] [nas] [info] Selected plmn[208/93]
+[2023-07-07 00:05:54.300] [rrc] [info] Selected cell plmn[208/93] tac[1] category[ACCEPTABLE]
+[2023-07-07 00:05:54.300] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-07 00:05:54.300] [nas] [info] UE switches to state [MM-DEREGISTERED/LIMITED-SERVICE]
+[2023-07-07 00:05:54.871] [nas] [warning] Registration Accept ignored since the MM state is not MM_REGISTERED_INITIATED
+[2023-07-07 00:05:54.871] [nas] [warning] Sending MM Status with cause [MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE]
+[2023-07-07 00:05:54.871] [nas] [warning] NAS Transport aborted, Service Request is needed for uplink signalling
+[2023-07-07 00:05:54.871] [nas] [debug] Service request required due to [IDLE-UPLINK-SIGNAL-PENDING]
+[2023-07-07 00:05:54.871] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:54.885] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:55.310] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:55.319] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:55.986] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:57.087] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:58.128] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:58.147] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:58.188] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:59.165] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:59.172] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:59.179] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:59.182] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:59.186] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:59.194] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:59.202] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:59.289] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:59.609] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:59.618] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:59.805] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:05:59.811] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.016] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.032] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.234] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.244] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.251] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.390] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.452] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.459] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.466] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.470] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.477] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.477] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.483] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.487] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.687] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.695] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.703] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.711] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.874] [nas] [warning] Replayed NAS message detected, discarding the message
+[2023-07-07 00:06:00.911] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:00.919] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:01.331] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:01.331] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:01.331] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:01.331] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:01.491] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:01.530] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:01.534] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:01.542] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:01.546] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:01.754] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:01.760] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:01.760] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:01.769] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:01.977] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-07 00:06:02.592] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state

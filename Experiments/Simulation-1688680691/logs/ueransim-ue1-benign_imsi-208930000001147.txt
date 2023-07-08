@@ -1,0 +1,333 @@
+UERANSIM v3.2.6
+[2023-07-06 22:01:59.106] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-06 22:01:59.107] [rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2023-07-06 22:01:59.133] [nas] [info] Selected plmn[208/93]
+[2023-07-06 22:02:01.606] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-06 22:02:01.606] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:02:01.606] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-06 22:02:01.606] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-06 22:02:01.606] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-06 22:02:01.606] [nas] [debug] Sending Initial Registration
+[2023-07-06 22:02:01.606] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-06 22:02:01.606] [rrc] [debug] Sending RRC Setup Request
+[2023-07-06 22:02:01.632] [rrc] [info] RRC connection established
+[2023-07-06 22:02:01.632] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-06 22:02:01.633] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-06 22:02:17.123] [nas] [debug] NAS timer[3510] expired [1]
+[2023-07-06 22:02:17.123] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:02:17.123] [nas] [info] UE switches to state [5U2-NOT-UPDATED]
+[2023-07-06 22:02:17.123] [nas] [info] Performing local release of NAS connection
+[2023-07-06 22:02:17.123] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-06 22:02:17.123] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-06 22:02:17.123] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-06 22:02:27.134] [nas] [debug] NAS timer[3511] expired [1]
+[2023-07-06 22:02:27.134] [nas] [debug] Initial registration required due to [T3511-EXPIRY-IN-ATT-REG]
+[2023-07-06 22:02:27.134] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-06 22:02:27.134] [nas] [debug] Sending Initial Registration
+[2023-07-06 22:02:27.134] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-06 22:02:27.134] [rrc] [debug] Sending RRC Setup Request
+[2023-07-06 22:02:27.135] [rrc] [info] RRC connection established
+[2023-07-06 22:02:27.135] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-06 22:02:27.135] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-06 22:02:37.210] [rrc] [debug] Signal lost for cell[1], total [0] cells in coverage
+[2023-07-06 22:02:37.210] [nas] [error] Radio link failure detected
+[2023-07-06 22:02:37.210] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-06 22:02:37.210] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:02:37.210] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-06 22:02:37.210] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:02:37.210] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-06 22:02:37.210] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-06 22:02:37.228] [rrc] [debug] New signal detected for cell[2], total [1] cells in coverage
+[2023-07-06 22:02:37.863] [nas] [info] Selected plmn[208/93]
+[2023-07-06 22:02:37.865] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-06 22:02:37.865] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:02:37.865] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-06 22:02:37.865] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-06 22:02:37.865] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-06 22:02:37.865] [nas] [debug] Sending Initial Registration
+[2023-07-06 22:02:37.865] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-06 22:02:37.865] [rrc] [debug] Sending RRC Setup Request
+[2023-07-06 22:02:48.227] [rrc] [debug] Signal lost for cell[2], total [0] cells in coverage
+[2023-07-06 22:02:48.227] [nas] [error] Active cell change in [CM-IDLE] state while MM specific procedure is ongoing
+[2023-07-06 22:02:48.227] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:02:48.227] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-06 22:02:48.227] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-06 22:02:49.127] [rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+[2023-07-06 22:02:49.127] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-07-06 22:02:49.306] [rrc] [debug] New signal detected for cell[3], total [1] cells in coverage
+[2023-07-06 22:02:49.810] [nas] [info] Selected plmn[208/93]
+[2023-07-06 22:02:49.810] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-06 22:02:49.810] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:02:49.810] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-06 22:02:49.810] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-06 22:02:49.810] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-06 22:02:49.810] [nas] [debug] Sending Initial Registration
+[2023-07-06 22:02:49.810] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-06 22:02:49.810] [rrc] [debug] Sending RRC Setup Request
+[2023-07-06 22:02:59.739] [nas] [debug] Authentication Request received
+[2023-07-06 22:02:59.740] [nas] [warning] NAS Transport aborted, Service Request is needed for uplink signalling
+[2023-07-06 22:02:59.740] [nas] [debug] Service request required due to [IDLE-UPLINK-SIGNAL-PENDING]
+[2023-07-06 22:02:59.740] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:02:59.811] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:02:59.815] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:02:59.927] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:02:59.933] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:00.146] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:00.167] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:00.764] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:00.776] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:00.792] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:01.004] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:01.022] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:01.226] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:01.244] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:01.370] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:01.404] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:01.810] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:01.829] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:01.905] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:02.117] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:02.143] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:02.364] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:02.384] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:02.506] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:02.510] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:02.861] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:02.879] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:02.909] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:02.924] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.006] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.105] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.105] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.105] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.105] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.105] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.105] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.105] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.105] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.105] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.105] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.105] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.105] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.105] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.105] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.106] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.106] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.106] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.106] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.323] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.323] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.417] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.439] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.518] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.528] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.939] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:03.962] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:04.016] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:04.017] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:04.107] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:04.163] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:04.219] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:04.219] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:04.427] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:04.447] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:04.628] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:04.634] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:04.641] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:04.646] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:05.057] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:05.072] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:05.208] [nas] [warning] Service Request canceled, MM specific procedure is ongoing
+[2023-07-06 22:03:05.210] [nas] [debug] NAS timer[3510] expired [1]
+[2023-07-06 22:03:05.210] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:03:05.210] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-06 22:03:05.210] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:05.210] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:05.210] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-06 22:03:05.210] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:05.210] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:05.279] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:05.299] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:05.508] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:05.537] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:05.547] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:05.612] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:05.612] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:05.612] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:05.691] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:05.696] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:05.699] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:05.702] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:05.707] [nas] [debug] Authentication Request received
+[2023-07-06 22:03:05.707] [nas] [error] Sending Authentication Failure with cause [NGKSI_ALREADY_IN_USE]
+[2023-07-06 22:03:05.707] [nas] [warning] NAS Transport aborted, Service Request is needed for uplink signalling
+[2023-07-06 22:03:06.305] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:06.309] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:06.314] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:06.322] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:06.322] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:06.342] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:06.345] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:06.410] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:06.552] [rrc] [debug] Signal lost for cell[3], total [0] cells in coverage
+[2023-07-06 22:03:06.552] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:03:06.552] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-06 22:03:06.552] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-06 22:03:06.561] [rrc] [debug] New signal detected for cell[4], total [1] cells in coverage
+[2023-07-06 22:03:06.573] [nas] [info] Selected plmn[208/93]
+[2023-07-06 22:03:06.573] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-06 22:03:06.573] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:03:06.573] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-06 22:03:06.573] [nas] [error] Service Request canceled, UE not in 5U1 UPDATED state
+[2023-07-06 22:03:06.573] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-06 22:03:06.573] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-06 22:03:06.573] [nas] [debug] Sending Initial Registration
+[2023-07-06 22:03:06.573] [nas] [debug] Deleting NAS security context
+[2023-07-06 22:03:06.573] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-06 22:03:06.573] [rrc] [debug] Sending RRC Setup Request
+[2023-07-06 22:03:21.226] [nas] [debug] NAS timer[3520] expired [1]
+[2023-07-06 22:03:21.226] [nas] [error] Network failing the authentication check
+[2023-07-06 22:03:22.227] [nas] [debug] NAS timer[3510] expired [1]
+[2023-07-06 22:03:22.227] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:03:22.227] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-06 22:03:22.227] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-06 22:03:28.288] [rrc] [debug] Signal lost for cell[4], total [0] cells in coverage
+[2023-07-06 22:03:28.288] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:03:28.288] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-06 22:03:28.288] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-06 22:03:28.289] [rrc] [debug] New signal detected for cell[5], total [1] cells in coverage
+[2023-07-06 22:03:28.309] [nas] [info] Selected plmn[208/93]
+[2023-07-06 22:03:28.309] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-06 22:03:28.309] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:03:28.309] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-06 22:03:28.309] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-06 22:03:28.332] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-06 22:03:28.332] [nas] [debug] Sending Initial Registration
+[2023-07-06 22:03:28.332] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-06 22:03:28.332] [rrc] [debug] Sending RRC Setup Request
+[2023-07-06 22:03:28.417] [rrc] [info] RRC connection established
+[2023-07-06 22:03:28.417] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-06 22:03:28.417] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-06 22:03:44.254] [nas] [debug] NAS timer[3510] expired [1]
+[2023-07-06 22:03:44.254] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:03:44.254] [nas] [info] Performing local release of NAS connection
+[2023-07-06 22:03:44.254] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-06 22:03:44.254] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-06 22:03:44.254] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-06 22:03:54.265] [nas] [debug] NAS timer[3511] expired [1]
+[2023-07-06 22:03:54.265] [nas] [debug] Initial registration required due to [T3511-EXPIRY-IN-ATT-REG]
+[2023-07-06 22:03:54.265] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-06 22:03:54.265] [nas] [debug] Sending Initial Registration
+[2023-07-06 22:03:54.265] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-06 22:03:54.265] [rrc] [debug] Sending RRC Setup Request
+[2023-07-06 22:03:54.266] [rrc] [info] RRC connection established
+[2023-07-06 22:03:54.266] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-06 22:03:54.266] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-06 22:04:03.640] [rrc] [debug] Signal lost for cell[5], total [0] cells in coverage
+[2023-07-06 22:04:03.640] [nas] [error] Radio link failure detected
+[2023-07-06 22:04:03.640] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-06 22:04:03.640] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:04:03.640] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-06 22:04:03.641] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:04:03.641] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-06 22:04:03.641] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-06 22:04:03.646] [rrc] [debug] New signal detected for cell[6], total [1] cells in coverage
+[2023-07-06 22:04:03.720] [nas] [info] Selected plmn[208/93]
+[2023-07-06 22:04:03.720] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-06 22:04:03.720] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:04:03.720] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-06 22:04:03.720] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-06 22:04:03.726] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-06 22:04:03.726] [nas] [debug] Sending Initial Registration
+[2023-07-06 22:04:03.726] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-06 22:04:03.727] [rrc] [debug] Sending RRC Setup Request
+[2023-07-06 22:04:19.328] [nas] [debug] NAS timer[3510] expired [1]
+[2023-07-06 22:04:19.328] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:04:19.328] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-06 22:04:19.328] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-06 22:04:29.338] [nas] [debug] NAS timer[3511] expired [1]
+[2023-07-06 22:04:29.338] [nas] [debug] Initial registration required due to [T3511-EXPIRY-IN-ATT-REG]
+[2023-07-06 22:04:29.338] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-06 22:04:29.338] [nas] [debug] Sending Initial Registration
+[2023-07-06 22:04:29.338] [rrc] [debug] Sending RRC Setup Request
+[2023-07-06 22:04:29.338] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-06 22:04:29.339] [rrc] [info] RRC connection established
+[2023-07-06 22:04:29.339] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-06 22:04:29.339] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-06 22:04:39.752] [rrc] [debug] Signal lost for cell[6], total [0] cells in coverage
+[2023-07-06 22:04:39.752] [nas] [error] Radio link failure detected
+[2023-07-06 22:04:39.753] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-06 22:04:39.753] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:04:39.753] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-06 22:04:39.754] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:04:39.754] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-06 22:04:39.754] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-06 22:04:39.757] [rrc] [debug] New signal detected for cell[7], total [1] cells in coverage
+[2023-07-06 22:04:40.068] [nas] [info] Selected plmn[208/93]
+[2023-07-06 22:04:40.106] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-06 22:04:40.107] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:04:40.107] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-06 22:04:40.107] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-06 22:04:40.110] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-06 22:04:40.110] [nas] [debug] Sending Initial Registration
+[2023-07-06 22:04:40.110] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-06 22:04:40.110] [rrc] [debug] Sending RRC Setup Request
+[2023-07-06 22:04:55.364] [nas] [debug] NAS timer[3510] expired [1]
+[2023-07-06 22:04:55.364] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:04:55.364] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-06 22:04:55.364] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-06 22:04:57.941] [rrc] [debug] Signal lost for cell[7], total [0] cells in coverage
+[2023-07-06 22:04:57.941] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:04:57.942] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-06 22:04:57.942] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-06 22:04:57.942] [rrc] [debug] New signal detected for cell[8], total [1] cells in coverage
+[2023-07-06 22:04:57.978] [nas] [info] Selected plmn[208/93]
+[2023-07-06 22:04:57.978] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-06 22:04:57.980] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:04:57.980] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-06 22:04:57.980] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-06 22:04:57.981] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-06 22:04:57.981] [nas] [debug] Sending Initial Registration
+[2023-07-06 22:04:57.981] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-06 22:04:57.981] [rrc] [debug] Sending RRC Setup Request
+[2023-07-06 22:04:57.982] [rrc] [info] RRC connection established
+[2023-07-06 22:04:57.982] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-06 22:04:57.983] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-06 22:05:13.425] [nas] [debug] NAS timer[3510] expired [1]
+[2023-07-06 22:05:13.425] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:05:13.425] [nas] [info] Performing local release of NAS connection
+[2023-07-06 22:05:13.425] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-06 22:05:13.425] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-06 22:05:13.425] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-06 22:05:23.435] [nas] [debug] NAS timer[3511] expired [1]
+[2023-07-06 22:05:23.435] [nas] [debug] Initial registration required due to [T3511-EXPIRY-IN-ATT-REG]
+[2023-07-06 22:05:23.435] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-06 22:05:23.435] [nas] [debug] Sending Initial Registration
+[2023-07-06 22:05:23.435] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-06 22:05:23.435] [rrc] [debug] Sending RRC Setup Request
+[2023-07-06 22:05:23.436] [rrc] [info] RRC connection established
+[2023-07-06 22:05:23.436] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-06 22:05:23.436] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-07-06 22:05:38.508] [nas] [debug] NAS timer[3510] expired [1]
+[2023-07-06 22:05:38.508] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:05:38.508] [nas] [info] Performing local release of NAS connection
+[2023-07-06 22:05:38.508] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-07-06 22:05:38.508] [rrc] [info] UE switches to state [RRC-IDLE]
+[2023-07-06 22:05:38.511] [nas] [info] UE switches to state [CM-IDLE]
+[2023-07-06 22:05:40.672] [rrc] [debug] Signal lost for cell[8], total [0] cells in coverage
+[2023-07-06 22:05:40.672] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:05:40.672] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-07-06 22:05:40.672] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-07-06 22:05:40.672] [rrc] [debug] New signal detected for cell[9], total [1] cells in coverage
+[2023-07-06 22:05:40.909] [nas] [info] Selected plmn[208/93]
+[2023-07-06 22:05:40.909] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-07-06 22:05:40.909] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-07-06 22:05:40.909] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-07-06 22:05:40.909] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-07-06 22:05:40.909] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-07-06 22:05:40.909] [nas] [debug] Sending Initial Registration
+[2023-07-06 22:05:40.910] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-07-06 22:05:40.910] [rrc] [debug] Sending RRC Setup Request
+[2023-07-06 22:05:40.923] [rrc] [info] RRC connection established
+[2023-07-06 22:05:40.923] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-07-06 22:05:40.923] [nas] [info] UE switches to state [CM-CONNECTED]
