@@ -1,0 +1,220 @@
+2023-07-08T01:27:51Z[36m [INFO][SMF][CFG] [0mSMF config version [1.0.2]
+2023-07-08T01:27:51Z[36m [INFO][SMF][CFG] [0mUE-Routing config version [1.0.1]
+2023-07-08T01:27:51Z[36m [INFO][SMF][Init] [0mSMF Log level is set to [info] level
+2023-07-08T01:27:51Z[36m [INFO][LIB][NAS] [0mset log level : info
+2023-07-08T01:27:51Z[36m [INFO][LIB][NAS] [0mset report call : false
+2023-07-08T01:27:51Z[36m [INFO][LIB][NGAP] [0mset log level : info
+2023-07-08T01:27:51Z[36m [INFO][LIB][NGAP] [0mset report call : false
+2023-07-08T01:27:51Z[36m [INFO][LIB][Aper] [0mset log level : info
+2023-07-08T01:27:51Z[36m [INFO][LIB][Aper] [0mset report call : false
+2023-07-08T01:27:51Z[36m [INFO][LIB][PFCP] [0mset log level : info
+2023-07-08T01:27:51Z[36m [INFO][LIB][PFCP] [0mset report call : false
+2023-07-08T01:27:51Z[36m [INFO][SMF][App] [0msmf
+2023-07-08T01:27:51Z[36m [INFO][SMF][App] [0mSMF version:  
+	free5GC version: v3.2.0
+	build time:      2022-09-26T16:39:36Z
+	commit hash:     +722ca79
+	commit time:     2022-09-26T15:21:14Z
+	go version:      go1.14.4 linux/amd64
+2023-07-08T01:27:51Z[36m [INFO][SMF][CTX] [0msmfconfig Info: Version[1.0.2] Description[SMF initial local configuration]
+2023-07-08T01:27:51Z[36m [INFO][SMF][CTX] [0mEndpoints: [10.12.3.1]
+2023-07-08T01:27:51Z[36m [INFO][SMF][Init] [0mServer started
+2023-07-08T01:27:51Z[36m [INFO][SMF][Init] [0mSMF Registration to NRF {2b9b5b0e-a7d3-4257-8989-a13cca1fb662 SMF REGISTERED 0 0xc0002f0080 0xc0002f00c0 [] []   [smf-nsmf] [] <nil> [] [] <nil> 0 0 0 area1 <nil> <nil> <nil> <nil> 0xc000322f40 <nil> <nil> <nil> <nil> <nil> map[] <nil> false 0xc0001a3ee0 false false []}
+2023-07-08T01:27:51Z[36m [INFO][SMF][PFCP] [0mListen on 10.12.4.101:8805
+2023-07-08T01:27:51Z[36m [INFO][SMF][App] [0mSending PFCP Association Request to UPF[10.12.4.1]
+2023-07-08T01:27:51Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [1]
+2023-07-08T01:27:51Z[36m [INFO][SMF][App] [0mReceived PFCP Association Setup Accepted Response from UPF[10.12.4.1]
+2023-07-08T01:28:00Z[36m [INFO][SMF][PduSess] [0mReceive Create SM Context Request
+2023-07-08T01:28:00Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextCreate
+2023-07-08T01:28:00Z[36m [INFO][SMF][PduSess] [0mSend NF Discovery Serving UDM Successfully
+2023-07-08T01:28:00Z[36m [INFO][SMF][CTX] [0mAllocated UE IP address: 10.1.0.1
+2023-07-08T01:28:00Z[36m [INFO][SMF][CTX] [0mSelected UPF: UPF1
+2023-07-08T01:28:00Z[36m [INFO][SMF][PduSess] [0mUE[imsi-208930000000050] PDUSessionID[1] IP[10.1.0.1]
+2023-07-08T01:28:00Z[36m [INFO][SMF][GSM] [0mIn HandlePDUSessionEstablishmentRequest
+2023-07-08T01:28:00Z[36m [INFO][NAS][Convert] [0mProtocolOrContainerList:  [0xc0002f0dc0 0xc0002f0e00]
+2023-07-08T01:28:00Z[36m [INFO][SMF][GSM] [0mProtocol Configuration Options
+2023-07-08T01:28:00Z[36m [INFO][SMF][GSM] [0m&{[0xc0002f0dc0 0xc0002f0e00]}
+2023-07-08T01:28:00Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type IPAddressAllocationViaNASSignallingUL
+2023-07-08T01:28:00Z[36m [INFO][SMF][PduSess] [0mPCF Selection for SMContext SUPI[imsi-208930000000050] PDUSessionID[1]
+2023-07-08T01:28:00Z[36m [INFO][SMF][PduSess] [0mSUPI[imsi-208930000000050] has no pre-config route
+2023-07-08T01:28:00Z[36m [INFO][SMF][Consumer] [0mSendNFDiscoveryServingAMF ok
+2023-07-08T01:28:00Z[36m [INFO][SMF][PduSess] [0mSMF selected: [SMF]
+2023-07-08T01:28:00Z[36m [INFO][SMF][PduSess] [0mUPF selected: [10.12.4.1]
+2023-07-08T01:28:00Z[36m [INFO][SMF][GIN] [0m| 201 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts |
+2023-07-08T01:28:00Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Establishment Request
+2023-07-08T01:28:00Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [2]
+2023-07-08T01:28:00Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Establishment Accepted Response
+2023-07-08T01:28:00Z[36m [INFO][SMF][PduSess] [0mReceive Update SM Context Request
+2023-07-08T01:28:00Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextUpdate
+2023-07-08T01:28:00Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Modification Request to AN UPF
+2023-07-08T01:28:00Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [3]
+2023-07-08T01:28:00Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Modification Accepted Response from AN UPF
+2023-07-08T01:28:00Z[36m [INFO][SMF][GIN] [0m| 200 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts/urn:uuid:9273419a-44e1-4e68-bda4-09926f23d908/modify |
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mReceive Release SM Context Request
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextRelease
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Deletion Request
+2023-07-08T01:28:44Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [4]
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Deletion Accepted Response
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mUE[imsi-208930000000050] PDUSessionID[1] Release IP[10.1.0.1]
+2023-07-08T01:28:44Z[36m [INFO][SMF][GIN] [0m| 204 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts/urn:uuid:9273419a-44e1-4e68-bda4-09926f23d908/release |
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mReceive Create SM Context Request
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextCreate
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mSend NF Discovery Serving UDM Successfully
+2023-07-08T01:28:44Z[36m [INFO][SMF][CTX] [0mAllocated UE IP address: 10.1.0.2
+2023-07-08T01:28:44Z[36m [INFO][SMF][CTX] [0mSelected UPF: UPF1
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mUE[imsi-208930000000050] PDUSessionID[1] IP[10.1.0.2]
+2023-07-08T01:28:44Z[36m [INFO][SMF][GSM] [0mIn HandlePDUSessionEstablishmentRequest
+2023-07-08T01:28:44Z[36m [INFO][NAS][Convert] [0mProtocolOrContainerList:  [0xc0005262c0 0xc000526300]
+2023-07-08T01:28:44Z[36m [INFO][SMF][GSM] [0mProtocol Configuration Options
+2023-07-08T01:28:44Z[36m [INFO][SMF][GSM] [0m&{[0xc0005262c0 0xc000526300]}
+2023-07-08T01:28:44Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type IPAddressAllocationViaNASSignallingUL
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mPCF Selection for SMContext SUPI[imsi-208930000000050] PDUSessionID[1]
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mSUPI[imsi-208930000000050] has no pre-config route
+2023-07-08T01:28:44Z[36m [INFO][SMF][Consumer] [0mSendNFDiscoveryServingAMF ok
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mSMF selected: [SMF]
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mUPF selected: [10.12.4.1]
+2023-07-08T01:28:44Z[36m [INFO][SMF][GIN] [0m| 201 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts |
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Establishment Request
+2023-07-08T01:28:44Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [5]
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Establishment Accepted Response
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mReceive Update SM Context Request
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextUpdate
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Modification Request to AN UPF
+2023-07-08T01:28:44Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [6]
+2023-07-08T01:28:44Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Modification Accepted Response from AN UPF
+2023-07-08T01:28:44Z[36m [INFO][SMF][GIN] [0m| 200 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts/urn:uuid:02f6b539-f7bf-4a03-9e80-592e08f7a620/modify |
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mReceive Release SM Context Request
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextRelease
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Deletion Request
+2023-07-08T01:29:45Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [7]
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Deletion Accepted Response
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mUE[imsi-208930000000050] PDUSessionID[1] Release IP[10.1.0.2]
+2023-07-08T01:29:45Z[36m [INFO][SMF][GIN] [0m| 204 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts/urn:uuid:02f6b539-f7bf-4a03-9e80-592e08f7a620/release |
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mReceive Create SM Context Request
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextCreate
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mSend NF Discovery Serving UDM Successfully
+2023-07-08T01:29:45Z[36m [INFO][SMF][CTX] [0mAllocated UE IP address: 10.1.0.3
+2023-07-08T01:29:45Z[36m [INFO][SMF][CTX] [0mSelected UPF: UPF1
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mUE[imsi-208930000000050] PDUSessionID[1] IP[10.1.0.3]
+2023-07-08T01:29:45Z[36m [INFO][SMF][GSM] [0mIn HandlePDUSessionEstablishmentRequest
+2023-07-08T01:29:45Z[36m [INFO][NAS][Convert] [0mProtocolOrContainerList:  [0xc00061c500 0xc00061c540]
+2023-07-08T01:29:45Z[36m [INFO][SMF][GSM] [0mProtocol Configuration Options
+2023-07-08T01:29:45Z[36m [INFO][SMF][GSM] [0m&{[0xc00061c500 0xc00061c540]}
+2023-07-08T01:29:45Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type IPAddressAllocationViaNASSignallingUL
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mPCF Selection for SMContext SUPI[imsi-208930000000050] PDUSessionID[1]
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mSUPI[imsi-208930000000050] has no pre-config route
+2023-07-08T01:29:45Z[36m [INFO][SMF][Consumer] [0mSendNFDiscoveryServingAMF ok
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mSMF selected: [SMF]
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mUPF selected: [10.12.4.1]
+2023-07-08T01:29:45Z[36m [INFO][SMF][GIN] [0m| 201 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts |
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Establishment Request
+2023-07-08T01:29:45Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [8]
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Establishment Accepted Response
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mReceive Update SM Context Request
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextUpdate
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Modification Request to AN UPF
+2023-07-08T01:29:45Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [9]
+2023-07-08T01:29:45Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Modification Accepted Response from AN UPF
+2023-07-08T01:29:45Z[36m [INFO][SMF][GIN] [0m| 200 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts/urn:uuid:abdd3e83-f4c4-4b27-9f88-bba03edd203d/modify |
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mReceive Release SM Context Request
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextRelease
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Deletion Request
+2023-07-08T01:30:43Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [10]
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Deletion Accepted Response
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mUE[imsi-208930000000050] PDUSessionID[1] Release IP[10.1.0.3]
+2023-07-08T01:30:43Z[36m [INFO][SMF][GIN] [0m| 204 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts/urn:uuid:abdd3e83-f4c4-4b27-9f88-bba03edd203d/release |
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mReceive Create SM Context Request
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextCreate
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mSend NF Discovery Serving UDM Successfully
+2023-07-08T01:30:43Z[36m [INFO][SMF][CTX] [0mAllocated UE IP address: 10.1.0.4
+2023-07-08T01:30:43Z[36m [INFO][SMF][CTX] [0mSelected UPF: UPF1
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mUE[imsi-208930000000050] PDUSessionID[1] IP[10.1.0.4]
+2023-07-08T01:30:43Z[36m [INFO][SMF][GSM] [0mIn HandlePDUSessionEstablishmentRequest
+2023-07-08T01:30:43Z[36m [INFO][NAS][Convert] [0mProtocolOrContainerList:  [0xc0002f1060 0xc0002f10a0]
+2023-07-08T01:30:43Z[36m [INFO][SMF][GSM] [0mProtocol Configuration Options
+2023-07-08T01:30:43Z[36m [INFO][SMF][GSM] [0m&{[0xc0002f1060 0xc0002f10a0]}
+2023-07-08T01:30:43Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type IPAddressAllocationViaNASSignallingUL
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mPCF Selection for SMContext SUPI[imsi-208930000000050] PDUSessionID[1]
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mSUPI[imsi-208930000000050] has no pre-config route
+2023-07-08T01:30:43Z[36m [INFO][SMF][Consumer] [0mSendNFDiscoveryServingAMF ok
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mSMF selected: [SMF]
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mUPF selected: [10.12.4.1]
+2023-07-08T01:30:43Z[36m [INFO][SMF][GIN] [0m| 201 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts |
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Establishment Request
+2023-07-08T01:30:43Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [11]
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Establishment Accepted Response
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mReceive Update SM Context Request
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextUpdate
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Modification Request to AN UPF
+2023-07-08T01:30:43Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [12]
+2023-07-08T01:30:43Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Modification Accepted Response from AN UPF
+2023-07-08T01:30:43Z[36m [INFO][SMF][GIN] [0m| 200 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts/urn:uuid:5853fdc2-f7ec-4283-97ac-d21778b2b75f/modify |
+2023-07-08T01:31:43Z[36m [INFO][SMF][PduSess] [0mReceive Release SM Context Request
+2023-07-08T01:31:43Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextRelease
+2023-07-08T01:31:43Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Deletion Request
+2023-07-08T01:31:43Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [13]
+2023-07-08T01:31:43Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Deletion Accepted Response
+2023-07-08T01:31:43Z[36m [INFO][SMF][PduSess] [0mUE[imsi-208930000000050] PDUSessionID[1] Release IP[10.1.0.4]
+2023-07-08T01:31:43Z[36m [INFO][SMF][GIN] [0m| 204 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts/urn:uuid:5853fdc2-f7ec-4283-97ac-d21778b2b75f/release |
+2023-07-08T01:31:43Z[36m [INFO][SMF][PduSess] [0mReceive Create SM Context Request
+2023-07-08T01:31:43Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextCreate
+2023-07-08T01:31:43Z[36m [INFO][SMF][PduSess] [0mSend NF Discovery Serving UDM Successfully
+2023-07-08T01:31:43Z[36m [INFO][SMF][CTX] [0mAllocated UE IP address: 10.1.0.5
+2023-07-08T01:31:43Z[36m [INFO][SMF][CTX] [0mSelected UPF: UPF1
+2023-07-08T01:31:43Z[36m [INFO][SMF][PduSess] [0mUE[imsi-208930000000050] PDUSessionID[1] IP[10.1.0.5]
+2023-07-08T01:31:43Z[36m [INFO][SMF][GSM] [0mIn HandlePDUSessionEstablishmentRequest
+2023-07-08T01:31:43Z[36m [INFO][NAS][Convert] [0mProtocolOrContainerList:  [0xc00061ca40 0xc00061ca80]
+2023-07-08T01:31:43Z[36m [INFO][SMF][GSM] [0mProtocol Configuration Options
+2023-07-08T01:31:43Z[36m [INFO][SMF][GSM] [0m&{[0xc00061ca40 0xc00061ca80]}
+2023-07-08T01:31:43Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type IPAddressAllocationViaNASSignallingUL
+2023-07-08T01:31:43Z[36m [INFO][SMF][PduSess] [0mPCF Selection for SMContext SUPI[imsi-208930000000050] PDUSessionID[1]
+2023-07-08T01:31:43Z[36m [INFO][SMF][PduSess] [0mSUPI[imsi-208930000000050] has no pre-config route
+2023-07-08T01:31:43Z[36m [INFO][SMF][Consumer] [0mSendNFDiscoveryServingAMF ok
+2023-07-08T01:31:43Z[36m [INFO][SMF][PduSess] [0mSMF selected: [SMF]
+2023-07-08T01:31:43Z[36m [INFO][SMF][PduSess] [0mUPF selected: [10.12.4.1]
+2023-07-08T01:31:43Z[36m [INFO][SMF][GIN] [0m| 201 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts |
+2023-07-08T01:31:43Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Establishment Request
+2023-07-08T01:31:43Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [14]
+2023-07-08T01:31:43Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Establishment Accepted Response
+2023-07-08T01:31:44Z[36m [INFO][SMF][PduSess] [0mReceive Update SM Context Request
+2023-07-08T01:31:44Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextUpdate
+2023-07-08T01:31:44Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Modification Request to AN UPF
+2023-07-08T01:31:44Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [15]
+2023-07-08T01:31:44Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Modification Accepted Response from AN UPF
+2023-07-08T01:31:44Z[36m [INFO][SMF][GIN] [0m| 200 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts/urn:uuid:a9267214-8810-450c-964d-394d7d8a46bb/modify |
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mReceive Release SM Context Request
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextRelease
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Deletion Request
+2023-07-08T01:32:46Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [16]
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Deletion Accepted Response
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mUE[imsi-208930000000050] PDUSessionID[1] Release IP[10.1.0.5]
+2023-07-08T01:32:46Z[36m [INFO][SMF][GIN] [0m| 204 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts/urn:uuid:a9267214-8810-450c-964d-394d7d8a46bb/release |
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mReceive Create SM Context Request
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextCreate
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mSend NF Discovery Serving UDM Successfully
+2023-07-08T01:32:46Z[36m [INFO][SMF][CTX] [0mAllocated UE IP address: 10.1.0.6
+2023-07-08T01:32:46Z[36m [INFO][SMF][CTX] [0mSelected UPF: UPF1
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mUE[imsi-208930000000050] PDUSessionID[1] IP[10.1.0.6]
+2023-07-08T01:32:46Z[36m [INFO][SMF][GSM] [0mIn HandlePDUSessionEstablishmentRequest
+2023-07-08T01:32:46Z[36m [INFO][NAS][Convert] [0mProtocolOrContainerList:  [0xc0004c8d80 0xc0004c8dc0]
+2023-07-08T01:32:46Z[36m [INFO][SMF][GSM] [0mProtocol Configuration Options
+2023-07-08T01:32:46Z[36m [INFO][SMF][GSM] [0m&{[0xc0004c8d80 0xc0004c8dc0]}
+2023-07-08T01:32:46Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type IPAddressAllocationViaNASSignallingUL
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mPCF Selection for SMContext SUPI[imsi-208930000000050] PDUSessionID[1]
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mSUPI[imsi-208930000000050] has no pre-config route
+2023-07-08T01:32:46Z[36m [INFO][SMF][Consumer] [0mSendNFDiscoveryServingAMF ok
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mSMF selected: [SMF]
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mUPF selected: [10.12.4.1]
+2023-07-08T01:32:46Z[36m [INFO][SMF][GIN] [0m| 201 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts |
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Establishment Request
+2023-07-08T01:32:46Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [17]
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Establishment Accepted Response
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mReceive Update SM Context Request
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextUpdate
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mSending PFCP Session Modification Request to AN UPF
+2023-07-08T01:32:46Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [18]
+2023-07-08T01:32:46Z[36m [INFO][SMF][PduSess] [0mReceived PFCP Session Modification Accepted Response from AN UPF
+2023-07-08T01:32:46Z[36m [INFO][SMF][GIN] [0m| 200 |    10.244.3.195 | POST    | /nsmf-pdusession/v1/sm-contexts/urn:uuid:03c41096-bec8-4793-b58a-73ebaffe4909/modify |
+2023-07-08T01:36:44Z[36m [INFO][SMF][Init] [0mTerminating SMF...
+2023-07-08T01:36:44Z[36m [INFO][SMF][Consumer] [0mSend Deregister NFInstance
+2023-07-08T01:36:44Z[31m [ERRO][SMF][Init] [0mDeregister NF instance Error[server no response]
