@@ -384,7 +384,7 @@ if __name__ == "__main__":
     #print("Log collection running in background.")
 
 
-    source_folder_path, dest_folder_path = 'data/', 'charts/' 
+    source_folder_path, dest_folder_path = 'data_default/', 'charts-default/' 
     # Plot charts every 5 seconds for real-time visualisation
     real_time_charts(metric_lists, labels_dict, start_time, end_time, step, source_folder_path, dest_folder_path, debug=True)
 
