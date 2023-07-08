@@ -359,11 +359,11 @@ if __name__ == "__main__":
     elif selector == 60:
         results = {
             f'{prefix}Simulation-1688775784': 'No storm',
-            f'{prefix}Simulation-1688777383': 'Default storm',
-            f'{prefix}Simulation-1688781750': 'Ghost storm',
+            f'{prefix}Simulation-1688781750': 'Default storm',
+            f'{prefix}Simulation-1688779677': 'Ghost storm',
             f'{prefix}Simulation-1688783571': 'AMF-active storm'
         }
-        max_time = 2
+        max_time = 4
     
     else:
         print("ERROR\nPlease choose a valid selector")
